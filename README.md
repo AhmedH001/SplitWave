@@ -42,7 +42,8 @@ Maintained by [AhmedH001](https://github.com/AhmedH001).
 3. Configure Firebase:
 
    - Update `firebase.json`, `android/app/google-services.json`, and iOS config files as needed.
-   - Add your Firebase app settings in `lib/firebase_options.dart` if required.
+   - Run the FlutterFire CLI to generate `lib/firebase_options.dart`, or copy `lib/firebase_options.example.dart` to `lib/firebase_options.dart` and update the values.
+   - Do not commit `lib/firebase_options.dart` to source control.
 
 4. Run the app:
 
